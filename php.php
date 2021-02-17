@@ -71,13 +71,22 @@
         // echo 'hello "$number"';  // hello '7'
 
         // Escape sequence
-        echo 'hello \'number\'';  // hello "number"
-        echo "<br>";
-        echo "hello \"number\"";  // hello "number"
+        // echo 'hello \'number\'';  // hello "number"
+        // echo "<br>";
+        // echo "hello \"number\"";  // hello "number"
 
-
-
-
+        // CONDITIONALS
+        
+        $clock = 20;
+        if ($clock==5) {
+            echo "Wake up time";
+        }
+        elseif ($clock == 20) {
+            echo "Sleep time";
+        }
+        else {
+            echo "Free time";
+        }
 
     ?>
 </body>
