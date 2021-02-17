@@ -130,11 +130,16 @@
             // }
 
         // RANDOM
-        $randomNumber = rand(1,20);
-        echo $randomNumber;
-
-
-
+        // $randomNumber = rand(1,20);
+        // echo $randomNumber;
     ?>
+
+<!-- FORM OPERATIONS -->
+        <form action="result.php" method="POST">
+            <input type="text" name="name" id="name">
+            <button type="submit">Submit</button>
+        </form>
+
+
 </body>
 </html>
