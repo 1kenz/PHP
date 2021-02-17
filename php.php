@@ -129,6 +129,9 @@
             //     echo "<br>";
             // }
 
+        // RANDOM
+        $randomNumber = rand(1,20);
+        echo $randomNumber;
 
 
 
