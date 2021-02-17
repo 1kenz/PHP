@@ -111,6 +111,19 @@
         //         break;
         // }
 
+        // WHILE
+        // $a = 5;
+        // while ($a <= 10) {
+        //     echo "$a";
+        //     echo "<br>";
+        //     $a++;
+        // }
+
+        // FOR
+        for ($i=0; $i < 10 ; $i++) { 
+            echo "$i";
+            echo "<br>";
+        }
 
 
     ?>
