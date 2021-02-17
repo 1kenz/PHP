@@ -77,16 +77,28 @@
 
         // CONDITIONALS
         
-        $clock = 20;
-        if ($clock==5) {
-            echo "Wake up time";
-        }
-        elseif ($clock == 20) {
-            echo "Sleep time";
-        }
-        else {
-            echo "Free time";
-        }
+        // $clock = 20;
+        // if ($clock==5) {
+        //     echo "Wake up time";
+        // }
+        // elseif ($clock == 20) {
+        //     echo "Sleep time";
+        // }
+        // else {
+        //     echo "Free time";
+        // }
+
+        // $clock = 12;
+
+        // if ($clock >= 1 & $clock < 12) {
+        //     echo "Good morning";
+        // }
+        // elseif ($clock >= 12 & $clock < 20) {
+        //     echo "Good evening";
+        // }
+        // else {
+        //     echo "Good night";
+        // }
 
     ?>
 </body>
