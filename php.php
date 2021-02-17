@@ -40,7 +40,7 @@
 
         // echo $number1 * $number2 / $number3 + $number4 - $number5
 
-        // FUNTION
+        // FUNCTIONS
         $word = "HI how are you?";
         // echo strlen(utf8_decode($word)); // türkçe vs. dilleri tanımasını sağlamak için
         // echo str_word_count($word);
@@ -48,9 +48,31 @@
         // echo strtolower($word);  // küçük harf olarak yazdırma
         // echo substr($word, 0, 8);  // harf aralığı yazdırma
 
+        // FUNCTIONS-2
+        // $number = 20;
 
+        // $number++;  // first number then +1
+        // $number--;  // first number then -1
+        // ++$number;  // number +1
+        // --$number;  // number -1
 
+        // echo --$number;  // 19
+        // echo ++$number;  // 21
+
+        // QUOTES
+        echo 'hello "number"';  // hello "number"
         
+        echo 'hello "number"';  // hello "number"
+        
+        $number = 7;
+
+        echo "hello '$number' ";  // hello 'number'
+        
+        echo 'hello "$number"';  // hello '7'
+
+
+
+
 
     ?>
 </body>
