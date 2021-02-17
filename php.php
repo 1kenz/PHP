@@ -88,7 +88,7 @@
         //     echo "Free time";
         // }
 
-        // $clock = 12;
+        $clock = 12;
 
         // if ($clock >= 1 & $clock < 12) {
         //     echo "Good morning";
@@ -99,6 +99,19 @@
         // else {
         //     echo "Good night";
         // }
+
+        // SWITCH-CASE
+        // switch ($clock) {
+        //     case '1':
+        //         echo "Good morning";
+        //         break;
+            
+        //     default:
+        //         echo "time is passing";
+        //         break;
+        // }
+
+
 
     ?>
 </body>
