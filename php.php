@@ -60,15 +60,20 @@
         // echo ++$number;  // 21
 
         // QUOTES
-        echo 'hello "number"';  // hello "number"
+        // echo 'hello "number"';  // hello "number"
         
-        echo 'hello "number"';  // hello "number"
+        // echo 'hello "number"';  // hello "number"
         
-        $number = 7;
+        // $number = 7;
 
-        echo "hello '$number' ";  // hello 'number'
+        // echo "hello '$number' ";  // hello 'number'
         
-        echo 'hello "$number"';  // hello '7'
+        // echo 'hello "$number"';  // hello '7'
+
+        // Escape sequence
+        echo 'hello \'number\'';  // hello "number"
+        echo "<br>";
+        echo "hello \"number\"";  // hello "number"
 
 
 
