@@ -41,7 +41,7 @@
         // echo $number1 * $number2 / $number3 + $number4 - $number5
 
         // FUNCTIONS
-        $word = "HI how are you?";
+        // $word = "HI how are you?";
         // echo strlen(utf8_decode($word)); // türkçe vs. dilleri tanımasını sağlamak için
         // echo str_word_count($word);
         // echo strrev($word);  // tersten yazdırma
@@ -88,7 +88,7 @@
         //     echo "Free time";
         // }
 
-        $clock = 12;
+        // $clock = 12;
 
         // if ($clock >= 1 & $clock < 12) {
         //     echo "Good morning";
@@ -135,11 +135,16 @@
     ?>
 
 <!-- FORM OPERATIONS -->
-        <form action="result.php" method="POST">
+        <!-- <form action="result.php" method="POST">
             <input type="text" name="name" id="name">
             <button type="submit">Submit</button>
-        </form>
+        </form> -->
 
+<!-- FORM OPERATIONS-2 -->
+<form action="result.php" method="POST" >
+    <input type="text" name="name">
+    <button name="submit" type="submit" >Submit</button>
+</form>
 
 </body>
 </html>
