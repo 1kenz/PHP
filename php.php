@@ -32,13 +32,26 @@
         # comment
 
         // aritmetic operations
-        $number1 = 50;
-        $number2 = 10;
-        $number3 = 105;
-        $number4 = 25;
-        $number5 = 7;
+        // $number1 = 50;
+        // $number2 = 10;
+        // $number3 = 105;
+        // $number4 = 25;
+        // $number5 = 7;
 
-        echo $number1 * $number2 / $number3 + $number4 - $number5
+        // echo $number1 * $number2 / $number3 + $number4 - $number5
+
+        // FUNTION
+        $word = "HI how are you?";
+        // echo strlen(utf8_decode($word)); // türkçe vs. dilleri tanımasını sağlamak için
+        // echo str_word_count($word);
+        // echo strrev($word);  // tersten yazdırma
+        // echo strtolower($word);  // küçük harf olarak yazdırma
+        // echo substr($word, 0, 8);  // harf aralığı yazdırma
+
+
+
+        
+
     ?>
 </body>
 </html>
